@@ -4,7 +4,7 @@ import java.io.Serializable;
 *学生实体类
 *实现Serializable接口以便序列化到文件
 */
- public class Student implements Serializable {
+ public class Student implements Serializable{
      private static final long serialVersionUID =1L;
      private String id;   //学号
      private String name; //姓名

@@ -14,7 +14,6 @@ public class FileUtil {
     public static List<String> readFromFile(String filename) {
         List<String> lines = new ArrayList<>();
         File file = new File(filename);
-
         if(!file.exists()){
             try{
                 file.getParentFile().mkdir();
